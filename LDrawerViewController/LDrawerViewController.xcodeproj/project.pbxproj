@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD8F7A651C1131A6008E2B4D /* LCnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A641C1131A6008E2B4D /* LCnterViewController.m */; };
+		AD8F7A681C1136FA008E2B4D /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A671C1136FA008E2B4D /* LViewController.m */; };
+		AD8F7A6B1C113745008E2B4D /* LLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD8F7A6A1C113745008E2B4D /* LLeftViewController.m */; };
+		AD8F7A6D1C11660F008E2B4D /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AD8F7A6C1C11660F008E2B4D /* 1.PNG */; };
+		AD8F7A6F1C11680F008E2B4D /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = AD8F7A6E1C11680F008E2B4D /* 2.PNG */; };
+		ADF584A31C0EC053008768A1 /* LCnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF584A21C0EC053008768A1 /* LCnterView.m */; };
+		ADF606E51C0E93CF0032F718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF606E41C0E93CF0032F718 /* main.m */; };
+		ADF606E81C0E93CF0032F718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF606E71C0E93CF0032F718 /* AppDelegate.m */; };
+		ADF606EB1C0E93CF0032F718 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF606EA1C0E93CF0032F718 /* ViewController.m */; };
+		ADF606EE1C0E93CF0032F718 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF606EC1C0E93CF0032F718 /* Main.storyboard */; };
+		ADF606F01C0E93CF0032F718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF606EF1C0E93CF0032F718 /* Assets.xcassets */; };
+		ADF606F31C0E93CF0032F718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF606F11C0E93CF0032F718 /* LaunchScreen.storyboard */; };
+		ADF606FE1C0E93CF0032F718 /* LDrawerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF606FD1C0E93CF0032F718 /* LDrawerViewControllerTests.m */; };
+		ADF607091C0E93CF0032F718 /* LDrawerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF607081C0E93CF0032F718 /* LDrawerViewControllerUITests.m */; };
+		ADF607191C0E94240032F718 /* LDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF607181C0E94240032F718 /* LDrawerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF606FA1C0E93CF0032F718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF606D81C0E93CF0032F718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF606DF1C0E93CF0032F718;
+			remoteInfo = LDrawerViewController;
+		};
+		ADF607051C0E93CF0032F718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF606D81C0E93CF0032F718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF606DF1C0E93CF0032F718;
+			remoteInfo = LDrawerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD8F7A631C1131A6008E2B4D /* LCnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCnterViewController.h; sourceTree = "<group>"; };
+		AD8F7A641C1131A6008E2B4D /* LCnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCnterViewController.m; sourceTree = "<group>"; };
+		AD8F7A661C1136FA008E2B4D /* LViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LViewController.h; path = LDrawerViewController/LViewController.h; sourceTree = "<group>"; };
+		AD8F7A671C1136FA008E2B4D /* LViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LViewController.m; path = LDrawerViewController/LViewController.m; sourceTree = "<group>"; };
+		AD8F7A691C113745008E2B4D /* LLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLeftViewController.h; sourceTree = "<group>"; };
+		AD8F7A6A1C113745008E2B4D /* LLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLeftViewController.m; sourceTree = "<group>"; };
+		AD8F7A6C1C11660F008E2B4D /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		AD8F7A6E1C11680F008E2B4D /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		ADF584A11C0EC053008768A1 /* LCnterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCnterView.h; sourceTree = "<group>"; };
+		ADF584A21C0EC053008768A1 /* LCnterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCnterView.m; sourceTree = "<group>"; };
+		ADF606E01C0E93CF0032F718 /* LDrawerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDrawerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF606E41C0E93CF0032F718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADF606E61C0E93CF0032F718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADF606E71C0E93CF0032F718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADF606E91C0E93CF0032F718 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADF606EA1C0E93CF0032F718 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADF606ED1C0E93CF0032F718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF606EF1C0E93CF0032F718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADF606F21C0E93CF0032F718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADF606F41C0E93CF0032F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF606F91C0E93CF0032F718 /* LDrawerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDrawerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF606FD1C0E93CF0032F718 /* LDrawerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDrawerViewControllerTests.m; sourceTree = "<group>"; };
+		ADF606FF1C0E93CF0032F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF607041C0E93CF0032F718 /* LDrawerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDrawerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF607081C0E93CF0032F718 /* LDrawerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDrawerViewControllerUITests.m; sourceTree = "<group>"; };
+		ADF6070A1C0E93CF0032F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF607171C0E94240032F718 /* LDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDrawerViewController.h; sourceTree = "<group>"; };
+		ADF607181C0E94240032F718 /* LDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDrawerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF606DD1C0E93CF0032F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF606F61C0E93CF0032F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF607011C0E93CF0032F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF606D71C0E93CF0032F718 = {
+			isa = PBXGroup;
+			children = (
+				ADF606E21C0E93CF0032F718 /* LDrawerViewController */,
+				ADF606FC1C0E93CF0032F718 /* LDrawerViewControllerTests */,
+				ADF607071C0E93CF0032F718 /* LDrawerViewControllerUITests */,
+				ADF606E11C0E93CF0032F718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF606E11C0E93CF0032F718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF606E01C0E93CF0032F718 /* LDrawerViewController.app */,
+				ADF606F91C0E93CF0032F718 /* LDrawerViewControllerTests.xctest */,
+				ADF607041C0E93CF0032F718 /* LDrawerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF606E21C0E93CF0032F718 /* LDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F7A6C1C11660F008E2B4D /* 1.PNG */,
+				AD8F7A6E1C11680F008E2B4D /* 2.PNG */,
+				ADF607161C0E940F0032F718 /* LDrawerViewController */,
+				AD8F7A661C1136FA008E2B4D /* LViewController.h */,
+				AD8F7A671C1136FA008E2B4D /* LViewController.m */,
+				AD8F7A691C113745008E2B4D /* LLeftViewController.h */,
+				AD8F7A6A1C113745008E2B4D /* LLeftViewController.m */,
+				ADF606E61C0E93CF0032F718 /* AppDelegate.h */,
+				ADF606E71C0E93CF0032F718 /* AppDelegate.m */,
+				ADF606E91C0E93CF0032F718 /* ViewController.h */,
+				ADF606EA1C0E93CF0032F718 /* ViewController.m */,
+				ADF606EC1C0E93CF0032F718 /* Main.storyboard */,
+				ADF606EF1C0E93CF0032F718 /* Assets.xcassets */,
+				ADF606F11C0E93CF0032F718 /* LaunchScreen.storyboard */,
+				ADF606F41C0E93CF0032F718 /* Info.plist */,
+				ADF606E31C0E93CF0032F718 /* Supporting Files */,
+				AD8F7A631C1131A6008E2B4D /* LCnterViewController.h */,
+				AD8F7A641C1131A6008E2B4D /* LCnterViewController.m */,
+			);
+			path = LDrawerViewController;
+			sourceTree = "<group>";
+		};
+		ADF606E31C0E93CF0032F718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF606E41C0E93CF0032F718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADF606FC1C0E93CF0032F718 /* LDrawerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF606FD1C0E93CF0032F718 /* LDrawerViewControllerTests.m */,
+				ADF606FF1C0E93CF0032F718 /* Info.plist */,
+			);
+			path = LDrawerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		ADF607071C0E93CF0032F718 /* LDrawerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF607081C0E93CF0032F718 /* LDrawerViewControllerUITests.m */,
+				ADF6070A1C0E93CF0032F718 /* Info.plist */,
+			);
+			path = LDrawerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		ADF607161C0E940F0032F718 /* LDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ADF607171C0E94240032F718 /* LDrawerViewController.h */,
+				ADF607181C0E94240032F718 /* LDrawerViewController.m */,
+				ADF584A11C0EC053008768A1 /* LCnterView.h */,
+				ADF584A21C0EC053008768A1 /* LCnterView.m */,
+			);
+			path = LDrawerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF606DF1C0E93CF0032F718 /* LDrawerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF6070D1C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewController" */;
+			buildPhases = (
+				ADF606DC1C0E93CF0032F718 /* Sources */,
+				ADF606DD1C0E93CF0032F718 /* Frameworks */,
+				ADF606DE1C0E93CF0032F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDrawerViewController;
+			productName = LDrawerViewController;
+			productReference = ADF606E01C0E93CF0032F718 /* LDrawerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF606F81C0E93CF0032F718 /* LDrawerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF607101C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewControllerTests" */;
+			buildPhases = (
+				ADF606F51C0E93CF0032F718 /* Sources */,
+				ADF606F61C0E93CF0032F718 /* Frameworks */,
+				ADF606F71C0E93CF0032F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF606FB1C0E93CF0032F718 /* PBXTargetDependency */,
+			);
+			name = LDrawerViewControllerTests;
+			productName = LDrawerViewControllerTests;
+			productReference = ADF606F91C0E93CF0032F718 /* LDrawerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADF607031C0E93CF0032F718 /* LDrawerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF607131C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewControllerUITests" */;
+			buildPhases = (
+				ADF607001C0E93CF0032F718 /* Sources */,
+				ADF607011C0E93CF0032F718 /* Frameworks */,
+				ADF607021C0E93CF0032F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF607061C0E93CF0032F718 /* PBXTargetDependency */,
+			);
+			name = LDrawerViewControllerUITests;
+			productName = LDrawerViewControllerUITests;
+			productReference = ADF607041C0E93CF0032F718 /* LDrawerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF606D81C0E93CF0032F718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "林海";
+				TargetAttributes = {
+					ADF606DF1C0E93CF0032F718 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					ADF606F81C0E93CF0032F718 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ADF606DF1C0E93CF0032F718;
+					};
+					ADF607031C0E93CF0032F718 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = ADF606DF1C0E93CF0032F718;
+					};
+				};
+			};
+			buildConfigurationList = ADF606DB1C0E93CF0032F718 /* Build configuration list for PBXProject "LDrawerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF606D71C0E93CF0032F718;
+			productRefGroup = ADF606E11C0E93CF0032F718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF606DF1C0E93CF0032F718 /* LDrawerViewController */,
+				ADF606F81C0E93CF0032F718 /* LDrawerViewControllerTests */,
+				ADF607031C0E93CF0032F718 /* LDrawerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF606DE1C0E93CF0032F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F7A6F1C11680F008E2B4D /* 2.PNG in Resources */,
+				ADF606F31C0E93CF0032F718 /* LaunchScreen.storyboard in Resources */,
+				AD8F7A6D1C11660F008E2B4D /* 1.PNG in Resources */,
+				ADF606F01C0E93CF0032F718 /* Assets.xcassets in Resources */,
+				ADF606EE1C0E93CF0032F718 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF606F71C0E93CF0032F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF607021C0E93CF0032F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF606DC1C0E93CF0032F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8F7A651C1131A6008E2B4D /* LCnterViewController.m in Sources */,
+				ADF606EB1C0E93CF0032F718 /* ViewController.m in Sources */,
+				AD8F7A681C1136FA008E2B4D /* LViewController.m in Sources */,
+				ADF606E81C0E93CF0032F718 /* AppDelegate.m in Sources */,
+				ADF584A31C0EC053008768A1 /* LCnterView.m in Sources */,
+				ADF607191C0E94240032F718 /* LDrawerViewController.m in Sources */,
+				AD8F7A6B1C113745008E2B4D /* LLeftViewController.m in Sources */,
+				ADF606E51C0E93CF0032F718 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF606F51C0E93CF0032F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF606FE1C0E93CF0032F718 /* LDrawerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF607001C0E93CF0032F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF607091C0E93CF0032F718 /* LDrawerViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF606FB1C0E93CF0032F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF606DF1C0E93CF0032F718 /* LDrawerViewController */;
+			targetProxy = ADF606FA1C0E93CF0032F718 /* PBXContainerItemProxy */;
+		};
+		ADF607061C0E93CF0032F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF606DF1C0E93CF0032F718 /* LDrawerViewController */;
+			targetProxy = ADF607051C0E93CF0032F718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF606EC1C0E93CF0032F718 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF606ED1C0E93CF0032F718 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF606F11C0E93CF0032F718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF606F21C0E93CF0032F718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF6070B1C0E93CF0032F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADF6070C1C0E93CF0032F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF6070E1C0E93CF0032F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDrawerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF6070F1C0E93CF0032F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDrawerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADF607111C0E93CF0032F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LDrawerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDrawerViewController.app/LDrawerViewController";
+			};
+			name = Debug;
+		};
+		ADF607121C0E93CF0032F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LDrawerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDrawerViewController.app/LDrawerViewController";
+			};
+			name = Release;
+		};
+		ADF607141C0E93CF0032F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LDrawerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LDrawerViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ADF607151C0E93CF0032F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LDrawerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sss.LDrawerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LDrawerViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF606DB1C0E93CF0032F718 /* Build configuration list for PBXProject "LDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6070B1C0E93CF0032F718 /* Debug */,
+				ADF6070C1C0E93CF0032F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF6070D1C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF6070E1C0E93CF0032F718 /* Debug */,
+				ADF6070F1C0E93CF0032F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF607101C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF607111C0E93CF0032F718 /* Debug */,
+				ADF607121C0E93CF0032F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF607131C0E93CF0032F718 /* Build configuration list for PBXNativeTarget "LDrawerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF607141C0E93CF0032F718 /* Debug */,
+				ADF607151C0E93CF0032F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF606D81C0E93CF0032F718 /* Project object */;
+}
